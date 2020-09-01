@@ -1,1 +1,38 @@
 
+.nam {
+     				width: max-content;
+     				margin: 10vh auto;
+     				font-size: 	10vw;
+     				animation-name: rainbow;
+     				animation-duration: 2s;
+     				animation-iteration-count: infinite;
+     				animation-timing-function: linear;
+     				}
+     				
+     	body {
+     					background-color: black;
+     					}
+     					
+     		@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
